@@ -1,5 +1,5 @@
 # Lab8_Starter
-
+# Jason Sather 
 ## Check your understanding q's (FILL OUT)
 1. In your own words: Where would you fit your automated tests in your Bujo project development pipeline? (just write the letter).  1
 
@@ -14,6 +14,7 @@
         await page.goto('http://127.0.0.1:5500');
         await page.waitForTimeout(500);
         await expect(page).toClick('img', { src: './styles/settings.svg' });
-        await page.waitForTimeout(500);
+        await page.waitForTimeout(1);
     });
 
+![Test Successes](./allTests.PNG)
